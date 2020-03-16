@@ -18,6 +18,8 @@ Web Applications :-
 [] Abubaker Sedig
 [] Ebaa Anas
 [] Ahmed Ali Hassan
+[] Yazeed
+[] Yousif Babiker
 
 Android Programming
 [] Ahmed Osman
