@@ -13,6 +13,7 @@ Web Applications :-
 [] Mohammed Eid
 [] Zuhair Ahmed
 [] Afaf Altijani
+[] Ramzi Osman
 
 Android Programming
 [] Ahmed Osman
