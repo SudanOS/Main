@@ -8,14 +8,14 @@ html {
 	scroll-behavior: smooth;
 }
 
-body .containar {
+body .container {
 	position: relative;
 	width: 100%;
 	height: 200vh;
 	font-family: 'Poppins', sans-serif;
 }
 
-body .containar .section-1 {
+body .container .section-1 {
 	position: relative;
 	height: 100vh;
 	background-image: url(imgs/bg-1.svg);
@@ -23,11 +23,11 @@ body .containar .section-1 {
 	background-position: center;
 }
 
-body .containar .section-1 .content {
+body .container .section-1 .content {
 	padding-left: 5em;
 }
 
-body .containar .section-1 .content h1 {
+body .container .section-1 .content h1 {
 	position: relative;
 	font-size: 3.5em;
 	line-height: 6;
@@ -35,7 +35,7 @@ body .containar .section-1 .content h1 {
 }
 
 /*
-body .containar .section-1 .content h1::before {
+body .container .section-1 .content h1::before {
 	content: '';
 	position: absolute;
 	width: 90px;
@@ -46,12 +46,12 @@ body .containar .section-1 .content h1::before {
 }
 */
 
-body .containar .section-1 .content h1 span {
+body .container .section-1 .content h1 span {
 	position: relative;
 	z-index: 0;
 }
 
-body .containar .section-1 .content h1 span::before {
+body .container .section-1 .content h1 span::before {
 	position: absolute;
 	content: '';
 	width: 105%;
@@ -64,14 +64,14 @@ body .containar .section-1 .content h1 span::before {
 	z-index: -1;
 }
 
-body .containar .section-1 .content h3 {
+body .container .section-1 .content h3 {
 	font-size: 1.5em;
 	font-weight: 500;
 	line-height: 2;
 	color: #361a61;
 }
 
-body .containar .section-1 .content a {
+body .container .section-1 .content a {
 	display: block;
 	width: 140px;
 	height: 45px;
@@ -84,11 +84,11 @@ body .containar .section-1 .content a {
 	transition: opacity .5s;
 }
 
-body .containar .section-1 .content a:hover {
+body .container .section-1 .content a:hover {
 	opacity: .8;
 }
 
-body .containar .section-2 {
+body .container .section-2 {
 	position: relative;
 	height: 100vh;
 	background-image: url(imgs/bg-2.svg);
@@ -96,25 +96,25 @@ body .containar .section-2 {
 	background-position: center;
 }
 
-body .containar .section-2 .content {
+body .container .section-2 .content {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 }
 
-body .containar .section-2 .content h1 {
+body .container .section-2 .content h1 {
 	font-size: 3em;
 	line-height: 5;
 	color: #361a61;
 }
 
-body .containar .section-2 .content .status {
+body .container .section-2 .content .status {
 	width: 100%;
 	display: flex;
 	justify-content: space-around;
 }
 
-body .containar .section-2 .content .status .border {
+body .container .section-2 .content .status .border {
 	width: 260px;
 	height: 340px;
 	border: 2px solid #361a61;
@@ -122,14 +122,14 @@ body .containar .section-2 .content .status .border {
 	text-align: center;
 }
 
-body .containar .section-2 .content .status .border h3 {
+body .container .section-2 .content .status .border h3 {
 	font-weight: 400;
 	font-size: 27px;
 	margin: 25px 0 75px 0;
 	color: #361a61;
 }
 
-body .containar .section-2 .content .status .border .counter {
+body .container .section-2 .content .status .border .counter {
 	font-size: 45px;
 	font-weight: 600;
 	color: #361a61;
@@ -139,7 +139,7 @@ body .containar .section-2 .content .status .border .counter {
 
 @media (max-width: 800px) {
 
-	body .containar .section-1 {
+	body .container .section-1 {
 		position: relative;
 		height: 100vh;
 		background-image: url(imgs/bg-1-2.svg);
@@ -147,31 +147,31 @@ body .containar .section-2 .content .status .border .counter {
 		background-position: center;
 	}
 
-	body .containar .section-1 .content h1 {
+	body .container .section-1 .content h1 {
 		font-size: 2.5em;
 		line-height: 4;
 		margin-top: 3em;
 	}
 
-	body .containar .section-1 .content h1 span::before {
+	body .container .section-1 .content h1 span::before {
 		height: 45px;
 		bottom: 4px;
 		right: -4px;
 	}
 
-	body .containar .section-1 .content h3 {
+	body .container .section-1 .content h3 {
 		font-size: 1.5em;
 		line-height: 3;
 	}
 
-	body .containar .section-1 .content a {
+	body .container .section-1 .content a {
 		width: 125px;
 		height: 40px;
 		line-height: 40px;
 		font-size: 1em;
 	}
 
-	body .containar .section-2 {
+	body .container .section-2 {
 		position: relative;
 		height: 100vh;
 		background-image: url(imgs/bg-2.svg);
@@ -179,23 +179,23 @@ body .containar .section-2 .content .status .border .counter {
 		background-position: center;
 	}
 
-	body .containar .section-2 .content h1 {
+	body .container .section-2 .content h1 {
 		font-size: 2.5em;
 		line-height: 5;
 	}
 
-	body .containar .section-2 .content .status .border {
+	body .container .section-2 .content .status .border {
 		width: 210px;
 		height: 290px;
 		margin-bottom: 2em;
 	}
 
-	body .containar .section-2 .content .status .border h3 {
+	body .container .section-2 .content .status .border h3 {
 		font-weight: 500;
 		font-size: 20px;
 	}
 
-	body .containar .section-2 .content .status .border .counter {
+	body .container .section-2 .content .status .border .counter {
 		font-size: 40px;
 	}
 }
@@ -204,7 +204,7 @@ body .containar .section-2 .content .status .border .counter {
 
 @media (max-width: 425px) {
 
-	body .containar .section-1 {
+	body .container .section-1 {
 		position: relative;
 		height: 100vh;
 		background-image: url(imgs/bg-1-ml.svg);
@@ -212,38 +212,38 @@ body .containar .section-2 .content .status .border .counter {
 		background-position: center;
 	}
 
-	body .containar .section-1 .content {
+	body .container .section-1 .content {
 		padding-left: 0;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	body .containar .section-1 .content h1 {
+	body .container .section-1 .content h1 {
 		font-size: 2em;
 		line-height: 4;
 		margin-top: 3em;
 	}
 
-	body .containar .section-1 .content h1 span::before {
+	body .container .section-1 .content h1 span::before {
 		height: 35px;
 		bottom: 4px;
 		right: -4px;
 	}
 
-	body .containar .section-1 .content h3 {
+	body .container .section-1 .content h3 {
 		font-size: 1.5em;
 		line-height: 3;
 	}
 
-	body .containar .section-1 .content a {
+	body .container .section-1 .content a {
 		width: 125px;
 		height: 40px;
 		line-height: 40px;
 		font-size: 1em;
 	}
 
-	body .containar .section-2 {
+	body .container .section-2 {
 		position: relative;
 		height: 100vh;
 		background-image: url(imgs/bg-2-ml.svg);
@@ -251,28 +251,28 @@ body .containar .section-2 .content .status .border .counter {
 		background-position: center;
 	}
 
-	body .containar .section-2 .content h1 {
+	body .container .section-2 .content h1 {
 		font-size: 2em;
 		line-height: 5;
 	}
 
-	body .containar .section-2 .content .status {
+	body .container .section-2 .content .status {
 		flex-direction: column;
 		align-items: center;
 	}
 
-	body .containar .section-2 .content .status .border {
+	body .container .section-2 .content .status .border {
 		width: 210px;
 		height: 290px;
 		margin-bottom: 2em;
 	}
 
-	body .containar .section-2 .content .status .border h3 {
+	body .container .section-2 .content .status .border h3 {
 		font-weight: 500;
 		font-size: 20px;
 	}
 
-	body .containar .section-2 .content .status .border .counter {
+	body .container .section-2 .content .status .border .counter {
 		font-size: 40px;
 	}
 }
@@ -281,7 +281,7 @@ body .containar .section-2 .content .status .border .counter {
 
 @media (max-width: 375px) {
 
-	body .containar .section-1 {
+	body .container .section-1 {
 		position: relative;
 		height: 100vh;
 		background-image: url(imgs/bg-1-mm.svg);
@@ -289,38 +289,38 @@ body .containar .section-2 .content .status .border .counter {
 		background-position: center;
 	}
 
-	body .containar .section-1 .content {
+	body .container .section-1 .content {
 		padding-left: 0;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	body .containar .section-1 .content h1 {
+	body .container .section-1 .content h1 {
 		font-size: 1.5em;
 		line-height: 4;
 		margin-top: 3em;
 	}
 
-	body .containar .section-1 .content h1 span::before {
+	body .container .section-1 .content h1 span::before {
 		height: 26px;
 		bottom: 4px;
 		right: -4px;
 	}
 
-	body .containar .section-1 .content h3 {
+	body .container .section-1 .content h3 {
 		font-size: 1.3em;
 		line-height: 3;
 	}
 
-	body .containar .section-1 .content a {
+	body .container .section-1 .content a {
 		width: 100px;
 		height: 30px;
 		line-height: 30px;
 		font-size: .7em;
 	}
 
-	body .containar .section-2 {
+	body .container .section-2 {
 		position: relative;
 		height: 100vh;
 		background-image: url(imgs/bg-2.svg);
@@ -328,28 +328,28 @@ body .containar .section-2 .content .status .border .counter {
 		background-position: center;
 	}
 
-	body .containar .section-2 .content h1 {
+	body .container .section-2 .content h1 {
 		font-size: 1.5em;
 		line-height: 5;
 	}
 
-	body .containar .section-2 .content .status {
+	body .container .section-2 .content .status {
 		flex-direction: column;
 		align-items: center;
 	}
 
-	body .containar .section-2 .content .status .border {
+	body .container .section-2 .content .status .border {
 		width: 210px;
 		height: 290px;
 		margin-bottom: 2em;
 	}
 
-	body .containar .section-2 .content .status .border h3 {
+	body .container .section-2 .content .status .border h3 {
 		font-weight: 500;
 		font-size: 20px;
 	}
 
-	body .containar .section-2 .content .status .border .counter {
+	body .container .section-2 .content .status .border .counter {
 		font-size: 40px;
 	}
 }
@@ -358,7 +358,7 @@ body .containar .section-2 .content .status .border .counter {
 
 @media (max-width: 320px) {
 
-	body .containar .section-1 {
+	body .container .section-1 {
 		position: relative;
 		height: 100vh;
 		background-image: url(imgs/bg-1-1.svg);
@@ -366,38 +366,38 @@ body .containar .section-2 .content .status .border .counter {
 		background-position: center;
 	}
 
-	body .containar .section-1 .content {
+	body .container .section-1 .content {
 		padding-left: 0;
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 	}
 
-	body .containar .section-1 .content h1 {
+	body .container .section-1 .content h1 {
 		font-size: 1.5em;
 		line-height: 4;
 		margin-top: 3em;
 	}
 
-	body .containar .section-1 .content h1 span::before {
+	body .container .section-1 .content h1 span::before {
 		height: 26px;
 		bottom: 4px;
 		right: -4px;
 	}
 
-	body .containar .section-1 .content h3 {
+	body .container .section-1 .content h3 {
 		font-size: 1.3em;
 		line-height: 3;
 	}
 
-	body .containar .section-1 .content a {
+	body .container .section-1 .content a {
 		width: 100px;
 		height: 30px;
 		line-height: 30px;
 		font-size: .7em;
 	}
 
-	body .containar .section-2 {
+	body .container .section-2 {
 		position: relative;
 		height: 100vh;
 		background-image: url(imgs/bg-2.svg);
@@ -405,28 +405,28 @@ body .containar .section-2 .content .status .border .counter {
 		background-position: center;
 	}
 
-	body .containar .section-2 .content h1 {
+	body .container .section-2 .content h1 {
 		font-size: 1.5em;
 		line-height: 5;
 	}
 
-	body .containar .section-2 .content .status {
+	body .container .section-2 .content .status {
 		flex-direction: column;
 		align-items: center;
 	}
 
-	body .containar .section-2 .content .status .border {
+	body .container .section-2 .content .status .border {
 		width: 210px;
 		height: 290px;
 		margin-bottom: 2em;
 	}
 
-	body .containar .section-2 .content .status .border h3 {
+	body .container .section-2 .content .status .border h3 {
 		font-weight: 500;
 		font-size: 20px;
 	}
 
-	body .containar .section-2 .content .status .border .counter {
+	body .container .section-2 .content .status .border .counter {
 		font-size: 40px;
 	}
 }
