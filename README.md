@@ -1,44 +1,27 @@
--- COMMUNITY Members --
+-[ ] Node Express API.
 
-Web Applications :-
+Endpoints :-
 
-- [ ] Mohammed Sharaf Aldin
-- [ ] Ahmed Algily
-- [ ] Hamdi abaker
-- [ ] Amar Hashim
-- [ ] Mukhtar Mohammed
-- [ ] Amon
-- [ ] Samar Bushara
-- [ ] Ammar hashim
-- [ ] Mohammed Eid
-- [ ] Zuhair Ahmed
-- [ ] Afaf Altijani
-- [ ] Ramzi Osman
-- [ ] Mohammed Hisham
-- [ ] Abubaker Sedig
-- [ ] Ebaa Anas
-- [ ] Ahmed Ali Hassan
-- [ ] Yazeed
-- [ ] Yousif Babiker
+    - GET :-
+        /api/members - for all members.
+        /api/members/{id} - for a specific member id.
 
-Android Programming
-- [ ] Ahmed Osman
-- [ ] Samar Bushara
-- [ ] Hashim Abbas
-- [ ] Mohammed Mustafa
-- [ ] Abubaker Sedig
+    - POST
+        /api/members/add
+            {
+                "name": "member name",
+                "dep":"focus"
 
-iOS Programming
+            }
 
-- [ ] Ahmed Osman
+    -PUT
+        /api/members/{id} - for a specific member id.
+        {
+            "name":"new name",
+            "dep":"new department"
+        }
 
-Software Programming
+    -DELETE
+        /api/members/{id} - to delete a specific member from the database.
 
-- [ ]  Mohammed Sharaf Aldin
-
-- [ ]  Abubakr Mahdi
-
-Ai
-
-- [ ] Ahmed Osman
-- [ ] Afaf Altijani
+contribution sets :- - [ ] all routes are defined inside the /api/routes.js file. - [ ] all the database related models are defined inside the /api/database.js file.
