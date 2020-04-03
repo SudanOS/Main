@@ -8,6 +8,7 @@ var dotenv = require("dotenv").config();
 app.use(Morgan("common"));
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
+app.use(express.static("public"));
 app.get("/", (req, res) => {
   res.send("welcome home");
 });
